@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Thread Output",
+      "setup": "javac src/ExtendThread.java",
+      "run": "java -cp src ExtendThread",
+      "input": "",
+      "output": "Thread is running",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
